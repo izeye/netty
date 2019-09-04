@@ -61,8 +61,7 @@ public abstract class InternalLoggerFactory {
     }
 
     /**
-     * Returns the default factory.  The initial default factory is
-     * {@link JdkLoggerFactory}.
+     * Returns the default factory.
      */
     public static InternalLoggerFactory getDefaultFactory() {
         if (defaultFactory == null) {
